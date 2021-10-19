@@ -57,7 +57,7 @@ def  get_temp(temp,s_from,s_to):
 
 def test_get_temp():
     assert get_temp(26.85,C,K) == "300"
-    assert get_temp(400,K,C) == "146.85"
+    assert get_temp(400,K,C) == "126.85"
 
 
 def get_cmmmc(nums):
