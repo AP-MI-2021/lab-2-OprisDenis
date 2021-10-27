@@ -32,7 +32,7 @@ def test_get_largest_prime_below():
     assert get_largest_prime_below(24) == 23
 
 
-def get_temp(temp, s_from, s_to): # Primeste ca parametri un float care reprezinta temperatura si doua caractere corespunzatoare unitatilor de masura pentru temperatura 
+def get_temp(temp, s_from, s_to): # Primeste ca parametri un float care reprezinta temperatura si doua caractere corespunzatoare unitatilor de masura pentru temperatura
     temp = float(temp)
 
     if s_from not in ["C", "K", "F"]:
@@ -107,7 +107,7 @@ def main():
             to_unit = input()
             print(get_temp(temp, init_unit, to_unit))
         if choice == 14:
-            print(run_get_cmmmc())
+           run_get_cmmmc()
 
 
 if __name__ == '__main__':
